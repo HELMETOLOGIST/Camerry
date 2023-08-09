@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+}
+
+header .main-container{
+    display: flex;
+    margin-right: 33%;
+    justify-content:space-between;
+    margin-top: 2%;
+}
+
+header{
+    width: 100%;
+    background-color:rgba(215, 210, 210, 0.116);
+    padding: 0%;
+    position:fixed;
+    height: 81px;
+    border-color: rgba(255, 255, 255, .1);
+    z-index: 100;
+}
+
+.social-nav{
+    margin-left: 0px;
+    margin-right: -474px;
+    word-spacing: 18px;
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 27px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    margin-left: 1px;
+}
+
+.bgp-container{
+    width: 100%;
+    background-color: #9c4041;
+    height: 100%; 
+}
+
+.background{
+    width: 100%;
+    margin-top:0px;
+}
+
+.logo{
+    width: 12.5%;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: -13px;
+}
+
+.second-container{
+    background-color: #9c4041;
+    height: 700px;
+    width: 100%; 
+}
+
+.about-container{
+    display: flex; 
+    justify-content:center;
+}
+
+.lr{
+    
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.text-about{
+    margin-right: 0px;
+    margin-left: 69px;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.text3{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+.text1{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.exp{
+    text-decoration: none;
+    color: #d6c932;
+    font-size: 14px;
+    width: 126px;
+    height: 42px;
+    border-color: rgb(255, 217, 1);
+    background-color: #9c4041;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+      color: rgb(140, 140, 136);
+      transition: ease-in 0.2s;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    transition: ease-in 0.3s;
+    background: rgb(227, 198, 29);
+}
+
+.main-footer{
+    width: 100%;
+    height: 530px;
+    background-color: #1c1c1c;   
+}
+
+.ftr{
+    display: flex;
+}
+
+.ftr1{
+    color: #7c682a; 
+    font-size: 32px;
+    margin-left: 197px;
+    margin-top: 44px;
+    font-family:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-weight: 400;
+}
+
+.ftr2{
+    color: #c7b77e; 
+    margin-left: -349px;
+    margin-right: 257px;
+    margin-top: 85px;
+    font-weight: 100;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.bt2{
+    text-decoration: none;
+    color: #d6c932;
+    font-size: 14px;
+    width: 165px;
+    height: 43px;
+    border-color: rgb(255, 217, 1);
+    background-color: #1c1c1c;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 56px;
+}
+
+.line{
+    height: 0.1px;
+    background-color: #3b3737;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 80px;
+}
+
+.lo{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 75px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: lighter;
+    color: #d1bd74;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+}
+
+.limg{
+    width: 105px;
+    margin-top: 75px;
+}
+
+.five{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.loc{
+    text-decoration: none;
+}
